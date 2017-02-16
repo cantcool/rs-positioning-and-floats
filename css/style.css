@@ -1,0 +1,197 @@
+/* INIT STYLING */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Myriad Pro", "Arial", sans-serif;
+    font-size: 12px;
+}
+
+body {
+    height: 2000px;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0.5rem 0 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0.2rem 0;
+}
+
+p.indented {
+    margin-top: 15px;
+}
+
+.wrapper {
+    position: relative;
+    margin: 200px auto;
+    width: 555px;
+}
+
+article:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+article aside {
+    float: left;
+    margin: 0 22px 10px 0;
+}
+
+article aside:nth-child(2n+1) {
+    float: right;
+    margin: 15px 0 0 4px;
+}
+
+
+
+/* PAGES */
+
+.layer {
+    position: relative;
+    border: 2px solid #000000;
+    padding: 31px;
+    width: 523px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+
+.layer-middle {
+    z-index: -1;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: #cccccc;
+}
+
+.layer-bottom {
+    z-index: -2;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #acacac;
+}
+
+
+
+/* ARTICLE 2 */
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 1.2rem 0 1.4rem;
+}
+
+.banner-group {
+    font-size: 0;
+}
+
+.banner {
+    float: left;
+    margin: 0 66px 14px 0;
+}
+
+.banner:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+}
+
+footer {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
+
+/* SIDE STICKERS */
+
+.sticker {
+    position: absolute;
+    width: 111px;
+    height: 35px;
+    border: 2px solid #000000;
+    border-radius: 0 8px 8px 0;
+}
+
+.sticker-style1 {
+    right: -82px;
+    top: 38px;
+    background-color: #f68e56;
+}
+
+.sticker-style2 {
+    right: -49px;
+    top: 40px;
+    background-color: #39b54a;
+}
+
+.sticker-style3 {
+    right: -16px;
+    top: 44px;
+    background-color: #00aeef;
+}
+
+
+
+/* SIDE SMM */
+
+.smm {
+    position: fixed;
+    right: 0;
+    bottom: 210px;
+    width: 89px;
+    height: 71px;
+    background-color: #fbaf5d;
+    border: 1px solid #362f2d;
+    color: #333333;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.smm span {
+    margin: 0;
+    font-size: 1.33rem;
+}
+
+.smm-group {
+    font-size: 0;
+}
+
+.smm-icon {
+    display: inline-block;
+    background-image: url("../img/smm_sprite.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 21px;
+    font-size: 0px;
+    margin: 8px 0 8px 7px;
+}
+
+.smm-icon a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.smm-icon-fb {
+    background-position: -1px 0;
+}
+
+.smm-icon-tw {
+    background-position: -30px 0;
+}
+
+.smm-icon-in {
+    background-position: -58px 0;
+}
