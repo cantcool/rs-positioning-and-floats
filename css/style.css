@@ -34,6 +34,7 @@ p.indented {
     position: relative;
     margin: 200px auto;
     width: 555px;
+    min-height: auto;
 }
 
 article:after {
@@ -182,6 +183,8 @@ footer {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .smm-icon-fb {
